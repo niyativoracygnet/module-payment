@@ -1,0 +1,21 @@
+{
+    "name": "dividebuym2/module-payment",
+    "description": "Dividebuy Payment",
+    "license": "MIT",
+    "homepage": "https://github.com/niyativoracygnet/module-payment",
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Dividebuy\\Payment\\": ""
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
